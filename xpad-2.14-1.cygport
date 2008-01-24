@@ -1,0 +1,5 @@
+inherit gnome2
+
+DESCRIPTION="GTK+ sticky note application"
+HOMEPAGE="http://xpad.sourceforge.net/"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.bz2"

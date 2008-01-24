@@ -1,0 +1,97 @@
+xpad
+------------------------------------------
+Xpad is a sticky note application written using GTK+ 2.0 that strives to 
+be simple, fault-tolerant, and customizable. Xpad consists of independent 
+pad windows; each is basically a text box in which notes can be written.
+
+Runtime requirements:
+  cygwin-1.5.25-7
+  glib2-2.14.5-1
+  gtk2-x11-2.12.5-1
+  libICE6-1.0.4-1
+  libSM6-1.0.3-1
+  libintl8-0.15-1
+  pango-1.18.4-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.10-1.10-1
+  binutils-20060817-1
+  cygport-0.3.7-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  intltool-0.36.2-1
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://xpad.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/xpad/
+
+-------------------------------------------
+
+Build instructions:
+  unpack xpad-2.14-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./xpad-2.14-X.cygport all
+
+This will create:
+  /usr/src/xpad-2.14-X-src.tar.bz2
+  /usr/src/xpad-2.14-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/xpad.sh
+  /usr/bin/xpad.exe
+  /usr/share/applications/xpad.desktop
+  /usr/share/doc/xpad-2.14/AUTHORS
+  /usr/share/doc/xpad-2.14/COPYING
+  /usr/share/doc/xpad-2.14/ChangeLog
+  /usr/share/doc/xpad-2.14/INSTALL
+  /usr/share/doc/xpad-2.14/NEWS
+  /usr/share/doc/xpad-2.14/README
+  /usr/share/doc/xpad-2.14/THANKS
+  /usr/share/doc/xpad-2.14/TODO
+  /usr/share/icons/hicolor/48x48/apps/xpad.png
+  /usr/share/icons/hicolor/scalable/apps/xpad.svg
+  /usr/share/locale/af/LC_MESSAGES/xpad.mo
+  /usr/share/locale/bg/LC_MESSAGES/xpad.mo
+  /usr/share/locale/da/LC_MESSAGES/xpad.mo
+  /usr/share/locale/en_GB/LC_MESSAGES/xpad.mo
+  /usr/share/locale/es/LC_MESSAGES/xpad.mo
+  /usr/share/locale/fi/LC_MESSAGES/xpad.mo
+  /usr/share/locale/fr/LC_MESSAGES/xpad.mo
+  /usr/share/locale/ga/LC_MESSAGES/xpad.mo
+  /usr/share/locale/hu/LC_MESSAGES/xpad.mo
+  /usr/share/locale/it/LC_MESSAGES/xpad.mo
+  /usr/share/locale/ko/LC_MESSAGES/xpad.mo
+  /usr/share/locale/nl/LC_MESSAGES/xpad.mo
+  /usr/share/locale/ro/LC_MESSAGES/xpad.mo
+  /usr/share/locale/ru/LC_MESSAGES/xpad.mo
+  /usr/share/locale/rw/LC_MESSAGES/xpad.mo
+  /usr/share/locale/sv/LC_MESSAGES/xpad.mo
+  /usr/share/locale/vi/LC_MESSAGES/xpad.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/xpad.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/xpad.mo
+  /usr/share/man/man1/xpad.1.gz
+  /usr/share/pixmaps/xpad.png
+
+------------------
+
+Port Notes:
+
+----- version 2.14-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
