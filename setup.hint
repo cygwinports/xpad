@@ -1,5 +1,5 @@
 category: Gnome
-requires: glib2 gtk2-x11 libICE6 libSM6 libintl8 pango
+requires: libgcc1 libglib2.0_0 libgtk2.0_0 libICE6 libSM6 libintl8 libpango1.0_0
 sdesc: "GTK+ sticky note application"
 ldesc: "Xpad is a sticky note application written using GTK+ 2.0 that 
 strives to be simple, fault-tolerant, and customizable. Xpad consists of 
