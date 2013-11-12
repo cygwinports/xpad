@@ -1,5 +1,0 @@
-inherit gnome2
-
-DESCRIPTION="GTK+ sticky note application"
-HOMEPAGE="http://mterry.name/xpad/"
-SRC_URI="http://launchpad.net/${PN}/trunk/${PV}/+download/${P}.tar.bz2"
